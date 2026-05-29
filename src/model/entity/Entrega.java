@@ -3,8 +3,8 @@ package model.entity;
 public class Entrega {
 
     int id;
-    String cliente;
-    String entregador;
+    Cliente cliente;
+    Entregador entregador;
     String descricao;
     String status;
 
