@@ -3,7 +3,6 @@ package model.repository;
 import model.entity.Entregador;
 
 import java.util.HashMap;
-import java.util.ArrayList;
 
 public class EntregadorRepository {
 
@@ -17,15 +16,8 @@ public class EntregadorRepository {
         return entregadores.get(id);
     }
 
-    public ArrayList<Entregador> listar() {
-
-        ArrayList<Entregador> entregadoresLista = new ArrayList<>();
-
-        for (Entregador entregador : entregadores.values()) {
-            entregadoresLista.add(entregador);
-        }
-
-        return entregadoresLista;
+    public HashMap<Integer, Entregador> listar() {
+        return entregadores;
     }
 
     public void atualizar(Entregador entregador) {
