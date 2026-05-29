@@ -24,19 +24,19 @@ public class Entrega {
         this.id = id;
     }
 
-    public String getCliente() {
+    public Cliente getCliente() {
         return cliente;
     }
 
-    public void setCliente(String cliente) {
+    public void setCliente(Cliente cliente) {
         this.cliente = cliente;
     }
 
-    public String getEntregador() {
+    public Entregador getEntregador() {
         return entregador;
     }
 
-    public void setEntregador(String entregador) {
+    public void setEntregador(Entregador entregador) {
         this.entregador = entregador;
     }
 
@@ -63,6 +63,8 @@ public class Entrega {
         System.out.println("Entregador: " + entregador);
         System.out.println("Descrição: " + descricao);
         System.out.println("Status: " + status);
+
+
 
     }
 }
