@@ -17,15 +17,8 @@ public class EntregaRepository {
         return entregas.get(id);
     }
 
-    public ArrayList<Entrega> listar() {
-
-        ArrayList<Entrega> lista = new ArrayList<>();
-
-        for (Entrega entrega : entregas.values()) {
-            lista.add(entrega);
-        }
-
-        return lista;
+    public HashMap<Integer, Entrega> listar() {
+        return entregas;
     }
 
     public void atualizar(Entrega entrega) {
