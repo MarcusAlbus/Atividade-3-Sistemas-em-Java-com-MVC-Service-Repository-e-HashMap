@@ -1,6 +1,6 @@
-package repository;
+package model.repository;
 
-import entity.Entrega;
+import model.entity.Entrega;
 
 import java.util.HashMap;
 import java.util.ArrayList;
