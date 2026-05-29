@@ -4,12 +4,12 @@ public class Cliente {
 
     int id;
     String nome;
-    String endereço;
+    String endereco;
 
     public Cliente(int id, String nome, String endereço) {
         this.id = id;
         this.nome = nome;
-        this.endereço = endereço;
+        this.endereco = endereço;
     }
 
     public int getId() {
@@ -28,18 +28,18 @@ public class Cliente {
         this.nome = nome;
     }
 
-    public String getEndereço() {
-        return endereço;
+    public String getEndereco() {
+        return endereco;
     }
 
-    public void setEndereço(String endereço) {
-        this.endereço = endereço;
+    public void setEndereco(String endereço) {
+        this.endereco = endereço;
     }
 
     public void exibirDados() {
 
         System.out.println("Id: " + id);
         System.out.println("Nome: " + nome);
-        System.out.println("Endereço: " + endereço);
+        System.out.println("Endereço: " + endereco);
     }
 }
