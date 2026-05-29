@@ -3,12 +3,12 @@ package model.entity;
 public class Entrega {
 
     int id;
-    String cliente;
-    String entregador;
+    Cliente cliente;
+    Entregador entregador;
     String descricao;
     String status;
 
-    public Entrega(int id, String cliente, String entregador, String descricao, String status) {
+    public Entrega(int id, Cliente cliente, Entregador entregador, String descricao, String status) {
         this.id = id;
         this.cliente = cliente;
         this.entregador = entregador;
@@ -24,19 +24,19 @@ public class Entrega {
         this.id = id;
     }
 
-    public String getCliente() {
+    public Cliente getCliente() {
         return cliente;
     }
 
-    public void setCliente(String cliente) {
+    public void setCliente(Cliente cliente) {
         this.cliente = cliente;
     }
 
-    public String getEntregador() {
+    public Entregador getEntregador() {
         return entregador;
     }
 
-    public void setEntregador(String entregador) {
+    public void setEntregador(Entregador entregador) {
         this.entregador = entregador;
     }
 
