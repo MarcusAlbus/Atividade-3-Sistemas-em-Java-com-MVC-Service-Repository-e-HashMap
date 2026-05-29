@@ -1,6 +1,6 @@
-package repository;
+package model.repository;
 
-import entity.Cliente;
+import model.entity.Cliente;
 
 import java.util.HashMap;
 import java.util.ArrayList;
