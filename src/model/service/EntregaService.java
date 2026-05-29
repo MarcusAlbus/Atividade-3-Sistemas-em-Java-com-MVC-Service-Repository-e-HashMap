@@ -10,7 +10,6 @@ import model.repository.ClienteRepository;
 import model.repository.EntregadorRepository;
 import model.repository.EntregaRepository;
 
-
 public class EntregaService {
 
     private ClienteRepository repositoryCliente;
