@@ -3,7 +3,6 @@ package model.repository;
 import model.entity.Cliente;
 
 import java.util.HashMap;
-import java.util.ArrayList;
 
 public class ClienteRepository {
 
@@ -18,15 +17,8 @@ public class ClienteRepository {
         return clientes.get(id);
     }
 
-    public ArrayList<Cliente> listar() {
-
-        ArrayList<Cliente> lista = new ArrayList<>();
-
-        for (Cliente cliente : clientes.values()) {
-            lista.add(cliente);
-        }
-
-        return lista;
+    public HashMap<Integer, Cliente> listar() {
+        return clientes;
     }
 
     public void atualizar(Cliente cliente) {
