@@ -8,7 +8,7 @@ public class Entrega {
     String descricao;
     String status;
 
-    public Entrega(int id, String cliente, String entregador, String descricao, String status) {
+    public Entrega(int id, Cliente cliente, Entregador entregador, String descricao, String status) {
         this.id = id;
         this.cliente = cliente;
         this.entregador = entregador;
